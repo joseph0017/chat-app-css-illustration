@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+body {
+  font-family: 'Rubik';
+  margin: 0;
+  background-color: hsl(270, 20%, 96%);
+}
+
+.bullet {
+    border-radius: 0px 0px 250px 250px;
+    max-width: 400px;
+    padding: 14rem 0rem 20rem 0rem;
+    background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    margin-left: -112px;
+}
+.bullet2 {
+    border-radius: 250px 250px 0px 0px;
+    margin-left: 930px;
+    margin-top: -430px;
+    max-width: 400px;
+    padding: 12rem 0rem 24rem 0rem;
+    background-color: hsl(290, 27%, 94%)
+}
+
+.phone-container {
+    padding: 4rem 7rem 26rem 8rem;
+    background-color: white;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -161px;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.phone-pill {
+    background-color: white;
+    padding: 1rem 3rem 1rem 5rem;
+    position: absolute;
+    z-index: 2;
+    margin-left: -73px;
+    margin-top: -64px;
+    border-radius: 20px;
+}
+
+.phone {
+    padding: 2rem 7rem 26rem 6rem;
+    background-color: hsl(270, 20%, 96%);
+    position: absolute;
+    margin-left: -112px;
+    margin-top: -47px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.phone-top {
+    background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position: absolute;
+    margin-left: -96px;
+    margin-top: -34px;
+    z-index: 1;
+    border-radius: 20px 20px 5px 5px;
+    height: 57px;
+    width: 208px;
+}
+
+.left-arrow {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.back-arrow {
+  color: white;
+}
+.avatar {
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 13px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.name {
+  position: absolute;
+    margin-top: -36px;
+    margin-left: 49px;
+    z-index: 1;
+    font-size:  10px;
+    color: white;
+}
+.walk {
+    position: absolute;
+    margin-top: -21px;
+    margin-left: 49px;
+    z-index: 1;
+    font-size: 7px;
+    opacity: 0.4;
+    color: white;
+}
+.dotted-icon {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 168px;
+    z-index: 1;
+    color: white;
+}
+.bubble-text-1 {
+    background: blue;
+    position: absolute;
+    margin-left: -87px;
+    margin-top: 38px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 5px;
+    background-color: hsl(289, 6%, 92%);
+    }
+
+.text-1 {
+    font-size: 8px;
+    width: 88px;
+    padding-left: 8px;
+    color: hsl(276, 55%, 52%)
+}
+
+.bubble-text-2 {
+    background: blue;
+    position: absolute;
+    margin-left: -87px;
+    margin-top: 79px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 5px;
+    background-color: hsl(289, 6%, 92%);
+}
+
+.text-2 {
+    font-size: 8px;
+    width: 123px;
+    padding-left: 8px;
+    color: hsl(276, 55%, 52%)
+}
+
+.dog-image-1 {
+      width: 35px;
+    height: 35px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 123px;
+    margin-left: -31px;
+}
+.dog-image-2 {
+      width: 35px;
+    height: 35px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 123px;
+    margin-left: 16px;
+}
+.dog-image-3 {
+      width: 35px;
+    height: 35px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 123px;
+    margin-left: 64px;
+}
+
+.bubble-text-3 {
+    background: blue;
+    position: absolute;
+    margin-left: -17px;
+    margin-top: 166px;
+    z-index: 1;
+    border-radius: 10px 10px 5px 10px;
+    background-color: white;
+}
+
+.text-3 {
+    font-size: 8px;
+    width: 113px;
+    padding-left: 8px;
+}
+
+.bubble-text-4 {
+    background: blue;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 207px;
+    z-index: 1;
+    border-radius: 10px 10px 5px 10px;
+    background-color: white;
+}
+
+.text-4 {
+    font-size: 8px;
+    width: 74px;
+    padding-left: 8px;
+}
+
+.bubble-text-5 {
+    background: blue;
+    position: absolute;
+    margin-left: -87px;
+    margin-top: 247px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 5px;
+    background-color: hsl(289, 6%, 92%);
+}
+
+.text-5 {
+    font-size: 8px;
+    width: 110px;
+    padding-left: 8px;
+    color: hsl(276, 55%, 52%)
+}
+.bubble-text-6 {
+    background: blue;
+    position: absolute;
+    margin-left: -87px;
+    margin-top: 299px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 5px;
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.text-6 {
+    font-size: 8px;
+    width: 122px;
+    padding-left: 8px;
+    color: hsl(276, 55%, 52%);
+    margin-left: 20px;
+}
+.bubble-text-7 {
+    background: blue;
+    position: absolute;
+    margin-left: -87px;
+    margin-top: 333px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 5px;
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.text-7 {
+    font-size: 8px;
+    width: 122px;
+    padding-left: 8px;
+    color: hsl(276, 55%, 52%);
+    margin-left: 20px;
+}
+.enter {
+    background: white;
+    position: absolute;
+    margin-left: -87px;
+    margin-top: 376px;
+    z-index: 1;
+    border-radius: inherit;
+    width: 189px;
+    height: 30px;
+}
+
+.enter-text {
+  opacity: 0.3;
+    font-size: 8px;
+    width: 182px;
+    padding-left: 8px;
+}
+
+.circle {
+    position: absolute;
+    margin-left: 156px;
+    margin-top: -21px;
+    padding: 10px;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+}
+.circle-2 {
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 7px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px dotted white;
+}
+.circle-3 {
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 7px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px dotted white;
+}
+.front-arrow {
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -12px;
+    color: white;
+}
+
+strong {
+  font-size: 10px;
+  margin-left: 30px;
+  color: white;
+}
+
+.money {
+  margin-left: 46px;
+}
+
+.heading {
+    position: absolute;
+    margin-top: -522px;
+    margin-left: 592px;
+}
+
+.main-heading {
+  color:  hsl(271, 36%, 24%);
+}
+
+.body-text {
+    color: hsl(270, 7%, 64%);
+    line-height: 25px;
+    font-size: 16px;
+    width: 450px;
+}
+
+@media screen and (max-width: 375px) {
+  .bullet {
+    border-radius: 0px 0px 250px 250px;
+    max-width: 300px;
+    padding: 14rem 0rem 20rem 0rem;
+    background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    margin-left: -112px;
+}
+
+.bullet2 {
+    border-radius: 250px 250px 0px 0px;
+    margin-left: 130px;
+    margin-top: -249px;
+    max-width: 400px;
+    padding: 1rem 0rem 35rem 0rem;
+    background-color: hsl(290, 27%, 94%)
+}
+
+.phone-container {
+    padding: 4rem 7rem 26rem 8rem;
+    background-color: white;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: -161px;
+    z-index: 1;
+    border-radius: 30px;
+}
+.heading {
+    position: absolute;
+    margin-top: -298px;
+    margin-left: 0px;
+}
+.main-heading {
+    color: hsl(271, 36%, 24%);
+    margin-left: 51px;
+}
+
+.body-text {
+    color: hsl(270, 7%, 64%);
+    line-height: 25px;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 33px;
+    margin-bottom: 60px;
+}
+
+}
