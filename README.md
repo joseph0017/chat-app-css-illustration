@@ -22,9 +22,7 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://joseph0017.github.io/chat-app-css-illustration/)
 
 ### Built with
 
@@ -42,7 +40,7 @@ I would love to learn how to be much more efficient in using css properites, and
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Joseph Ogiku](https://joseph0017.github.io/chat-app-css-illustration/)
 - Frontend Mentor - [@joseph0017](https://www.frontendmentor.io/profile/joseph0017)
 
 ## Acknowledgments
